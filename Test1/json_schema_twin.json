@@ -1,0 +1,37 @@
+[
+    {
+        "thingId": "distributed:imagerecognition",
+        "policyId": "default:basic_policy",
+        "attributes": {
+            "name": "Image Recognition",
+            "description": "Image recognition for distributed car"
+        },
+        "features": {
+            "group": {
+                "properties": {
+                    "value": 0
+                }
+            },
+            "rep": {
+                "properties": {
+                    "value": 0
+                }
+            },
+            "msg": {
+                "properties": {
+                    "value": 0
+                }
+            },
+            "image": {
+                "properties": {
+                    "value": 0
+                }
+            },
+            "timestamp": {
+                "properties": {
+                    "value": 0
+                }
+            }
+        }
+    }
+]
