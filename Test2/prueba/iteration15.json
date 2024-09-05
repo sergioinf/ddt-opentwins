@@ -1,0 +1,205 @@
+[{
+  "kind": "PodMetrics",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {
+    "name": "ot-ditto-connectivity-76686cdd9c-rk2cb",
+    "namespace": "digitaltwins",
+    "creationTimestamp": "2024-09-05T07:07:45Z",
+    "labels": {
+      "actorSystemName": "ditto-cluster",
+      "app.kubernetes.io/instance": "ot",
+      "app.kubernetes.io/name": "ditto-connectivity",
+      "pod-template-hash": "76686cdd9c"
+    }
+  },
+  "timestamp": "2024-09-05T07:07:26Z",
+  "window": "17.734s",
+  "containers": [
+    {
+      "name": "ditto-connectivity",
+      "usage": {
+        "cpu": "117573136n",
+        "memory": "637264Ki"
+      }
+    }
+  ]
+},
+{
+  "kind": "PodMetrics",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {
+    "name": "ot-ditto-gateway-5cbf7ccf4b-gw77z",
+    "namespace": "digitaltwins",
+    "creationTimestamp": "2024-09-05T07:07:45Z",
+    "labels": {
+      "actorSystemName": "ditto-cluster",
+      "app.kubernetes.io/instance": "ot",
+      "app.kubernetes.io/name": "ditto-gateway",
+      "pod-template-hash": "5cbf7ccf4b"
+    }
+  },
+  "timestamp": "2024-09-05T07:07:27Z",
+  "window": "10.485s",
+  "containers": [
+    {
+      "name": "ditto-gateway",
+      "usage": {
+        "cpu": "94331711n",
+        "memory": "465092Ki"
+      }
+    }
+  ]
+},
+{
+  "kind": "PodMetrics",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {
+    "name": "ot-ditto-nginx-85bcb4fb66-q7mxr",
+    "namespace": "digitaltwins",
+    "creationTimestamp": "2024-09-05T07:07:46Z",
+    "labels": {
+      "app.kubernetes.io/instance": "ot",
+      "app.kubernetes.io/name": "ditto-nginx",
+      "pod-template-hash": "85bcb4fb66"
+    }
+  },
+  "timestamp": "2024-09-05T07:07:23Z",
+  "window": "17.361s",
+  "containers": [
+    {
+      "name": "ditto-nginx",
+      "usage": {
+        "cpu": "0",
+        "memory": "2360Ki"
+      }
+    }
+  ]
+},
+{
+  "kind": "PodMetrics",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {
+    "name": "ot-ditto-policies-5dd4f88567-9qdjn",
+    "namespace": "digitaltwins",
+    "creationTimestamp": "2024-09-05T07:07:46Z",
+    "labels": {
+      "actorSystemName": "ditto-cluster",
+      "app.kubernetes.io/instance": "ot",
+      "app.kubernetes.io/name": "ditto-policies",
+      "pod-template-hash": "5dd4f88567"
+    }
+  },
+  "timestamp": "2024-09-05T07:07:29Z",
+  "window": "14.352s",
+  "containers": [
+    {
+      "name": "ditto-policies",
+      "usage": {
+        "cpu": "68339325n",
+        "memory": "443188Ki"
+      }
+    }
+  ]
+},
+{
+  "kind": "PodMetrics",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {
+    "name": "ot-ditto-things-5d69d5796c-h4pwv",
+    "namespace": "digitaltwins",
+    "creationTimestamp": "2024-09-05T07:07:47Z",
+    "labels": {
+      "actorSystemName": "ditto-cluster",
+      "app.kubernetes.io/instance": "ot",
+      "app.kubernetes.io/name": "ditto-things",
+      "pod-template-hash": "5d69d5796c"
+    }
+  },
+  "timestamp": "2024-09-05T07:07:22Z",
+  "window": "12.803s",
+  "containers": [
+    {
+      "name": "ditto-things",
+      "usage": {
+        "cpu": "96883542n",
+        "memory": "464324Ki"
+      }
+    }
+  ]
+},
+{
+  "kind": "PodMetrics",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {
+    "name": "ot-ditto-thingssearch-6cf7684955-bkbgv",
+    "namespace": "digitaltwins",
+    "creationTimestamp": "2024-09-05T07:07:47Z",
+    "labels": {
+      "actorSystemName": "ditto-cluster",
+      "app.kubernetes.io/instance": "ot",
+      "app.kubernetes.io/name": "ditto-thingssearch",
+      "pod-template-hash": "6cf7684955"
+    }
+  },
+  "timestamp": "2024-09-05T07:07:28Z",
+  "window": "18.206s",
+  "containers": [
+    {
+      "name": "ditto-thingssearch",
+      "usage": {
+        "cpu": "95840052n",
+        "memory": "467296Ki"
+      }
+    }
+  ]
+},
+{
+  "kind": "PodMetrics",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {
+    "name": "ot-mongodb-c6547b44c-xqjr5",
+    "namespace": "digitaltwins",
+    "creationTimestamp": "2024-09-05T07:07:48Z",
+    "labels": {
+      "name": "pod-ot-mongodb",
+      "pod-template-hash": "c6547b44c"
+    }
+  },
+  "timestamp": "2024-09-05T07:07:37Z",
+  "window": "16.509s",
+  "containers": [
+    {
+      "name": "ot-mongodb",
+      "usage": {
+        "cpu": "11488218n",
+        "memory": "78228Ki"
+      }
+    }
+  ]
+},
+{
+  "kind": "PodMetrics",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {
+    "name": "ot-mosquitto-7b79d8d467-x452h",
+    "namespace": "digitaltwins",
+    "creationTimestamp": "2024-09-05T07:07:48Z",
+    "labels": {
+      "app.kubernetes.io/instance": "ot",
+      "app.kubernetes.io/name": "mosquitto",
+      "pod-template-hash": "7b79d8d467"
+    }
+  },
+  "timestamp": "2024-09-05T07:07:38Z",
+  "window": "19.221s",
+  "containers": [
+    {
+      "name": "mosquitto",
+      "usage": {
+        "cpu": "530357n",
+        "memory": "1052Ki"
+      }
+    }
+  ]
+}
+]
